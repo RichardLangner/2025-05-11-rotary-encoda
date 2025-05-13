@@ -48,7 +48,7 @@ int getCounter () {
   bool currD = D.down();
 
   if(currC == lastC) return counter;  // Clock has not changed
-  if(currD == lastD) return counter;  // Data has not changed
+  // if(currD == lastD) return counter;  // Data has not changed
 
   Serial.printf("C= %d  D= %d\n", currC, currD);
 
